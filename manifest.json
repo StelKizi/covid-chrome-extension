@@ -4,13 +4,11 @@
     "version": "0.1.0",
     "manifest_version": 2,
     "icons": {
-        "16": "./world_icon.png"
-    },
-    "background": {
-        "scripts": ["./background.js"]
+        "16": "./icons/world_icon.png"
     },
     "browser_action": {
-        "default_popup": "./popup.html"
+        "default_popup": "./dist/index.html"
     },
-    "permissions": ["<all_urls>"]
+    "permissions": ["<all_urls>"],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }

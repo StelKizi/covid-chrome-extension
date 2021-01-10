@@ -1,0 +1,17 @@
+.output-container {
+	text-align: center;
+}
+
+.results,
+.loading {
+	display: none;
+}
+
+.results {
+	display: block;
+}
+
+button {
+	display: block;
+	margin: auto;
+}

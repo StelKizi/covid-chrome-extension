@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>popup doc</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <form action="" class="country-data" autocomplete="on">
+        <div class="country">Enter country name for more information:</div>
+        <input type="text" class="country-input">
+        <button class="country-search">Search</button>
+        
+    </form>
+    <div class="output">
+        <div class="loading">Loading...</div>
+        <div class="errors"></div>
+        <div class="data"></div>
+        <div class="output-container">
+            <p>
+                <strong>Total Cases:</strong>
+                <span class="cases"></span>
+            </p>
+            <p>
+                <strong>Recovered:</strong>
+                <span class="recovered"></span>
+            </p>
+            <p>
+                <strong>Deaths:</strong>
+                <span class="deaths"></span>
+            </p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
