@@ -5,7 +5,7 @@ const loading = document.querySelector('.loading');
 const cases = document.querySelector('.cases');
 const recovered = document.querySelector('.recovered');
 const deaths = document.querySelector('.deaths');
-const results = document.querySelector('.result');
+const results = document.querySelector('.output-container');
 
 const countryData = document.querySelector('.country-data');
 const country = document.querySelector('.country-input');
@@ -14,14 +14,16 @@ const getCountry = async (countryName) => {
 	loading.style.display = 'block';
 	try {
 		const res = await axios.get(`${api}/${countryName}`);
+		loading.style.display = 'none';
 		cases.textContent = res.data.confirmed.value;
-		recovered.textContent = res.data.confirmed.value;
-		deaths.textContent = res.data.confirmed.value;
+		recovered.textContent = res.data.recovered.value;
+		deaths.textContent = res.data.deaths.value;
 		results.style.display = 'block';
+		errors.textContent = '';
 	} catch (error) {
-		loading.display = 'none';
-		results.display = 'none';
 		errors.textContent = 'No available data.';
+		loading.style.display = 'none';
+		results.style.display = 'none';
 	}
 };
 

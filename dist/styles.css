@@ -1,17 +1,22 @@
+.results,
+.loading,
 .output-container {
-	text-align: center;
+	display: none;
 }
 
-.results,
-.loading {
-	display: none;
+.output-container {
+	text-align: center;
 }
 
 .results {
 	display: block;
 }
 
-button {
+.country-search {
 	display: block;
 	margin: auto;
+}
+
+.errors {
+	text-align: center;
 }
