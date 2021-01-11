@@ -6,6 +6,7 @@ const cases = document.querySelector('.cases');
 const recovered = document.querySelector('.recovered');
 const deaths = document.querySelector('.deaths');
 const results = document.querySelector('.output-container');
+const search = document.querySelector('.country-search');
 
 const countryData = document.querySelector('.country-data');
 const country = document.querySelector('.country-input');
@@ -34,3 +35,4 @@ const handleSubmit = (e) => {
 };
 
 countryData.addEventListener('submit', (e) => handleSubmit(e));
+search.addEventListener('click', (e) => handleSubmit(e));
