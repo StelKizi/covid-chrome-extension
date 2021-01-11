@@ -1,5 +1,6 @@
 # Covid-Chrome-Extension
 A Chrome extension that allows the user to search for country-specific Covid-19 data.
+- - - -
 
 ![](https://github.com/StelKizi/Covid-Chrome-Extension/blob/master/assets/demonstration.gif)
 
