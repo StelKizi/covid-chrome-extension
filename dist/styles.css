@@ -4,6 +4,11 @@
 	display: none;
 }
 
+.loading {
+	text-align: center;
+	margin-top: 5px;
+}
+
 body {
 	background-color: #eaedee;
 	width: 200px;
