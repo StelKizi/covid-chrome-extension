@@ -10,7 +10,7 @@ A Chrome extension that allows the user to search for country-specific Covid-19 
 * Build with Webpack: `npm run build`
 
 *To install in your Chrome extensions:*
-* Go to **chrome://extensions**
+* Go to ***chrome://extensions***
 * Activate "Developer mode"
 * Click on "Load Unpacked"
 * Upload project forlder
