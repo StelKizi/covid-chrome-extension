@@ -14,3 +14,6 @@ A Chrome extension that allows the user to search for country-specific Covid-19 
 * Activate "Developer mode"
 * Click on "Load Unpacked"
 * Upload project forlder
+
+
+####Here you can find more information about [Google Chrome extensions](https://developer.chrome.com/docs/extensions/mv2/getstarted/)
