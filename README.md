@@ -4,7 +4,7 @@ A Chrome extension that allows the user to search for country-specific Covid-19 
 
 ![](https://github.com/StelKizi/Covid-Chrome-Extension/blob/master/assets/demonstration.gif)
 
-## Get started:
+## Getting started:
 * Clone the repo
 * Istall the packages: `npm i`
 * Build with Webpack: `npm run build`
